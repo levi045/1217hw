@@ -1,0 +1,36 @@
+.flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.border {
+	border: 2px solid black;
+	background-color: lightgray;
+	padding-left: 20px;
+	width: 300px;
+	height: auto;
+	vertical-align: middle;
+	align-self: middle;
+}
+.btn {
+	color: white;
+	background-color: saddlebrown;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.btn:hover{
+	transform: translateY(-3px);
+	 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.result {
+	margin-bottom: 20px;
+	margin-right: 10px;
+	border-style: double;
+	border-color: darkgray;
+	font-family: cursive;
+}
